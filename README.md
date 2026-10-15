@@ -1,6 +1,6 @@
 # IPGeolocation.io for Gemini CLI
 
-The official IPGeolocation.io extension for Gemini CLI provides IP geolocation and company/ISP lookups. Its 17 tools also cover ASN and network data, IP security (VPN, proxy, Tor, bot, hosting and spam detection), abuse contacts, time zones, astronomy, currency data and user-agent parsing.
+The official IPGeolocation.io extension gives Gemini CLI 17 tools for accurate IP geolocation, company information, ASN and network data, IP security (VPN, proxy, Tor, bot, hosting and spam detection), abuse contacts, time zones, astronomy, currency data and user-agent parsing.
 
 The extension runs `ipgeolocation-io-mcp@2.0.1` locally over stdio. It requires Node.js 22 or later, with `npx` on your PATH.
 
@@ -22,7 +22,7 @@ Install this server through one method to avoid duplicate tool entries. Keep you
 
 ## Data and privacy
 
-Company/ISP information includes the name, domain and type. ASN data is separate and includes the ASN number, organization, registered country, domain and type.
+Company information includes the name, domain and type. ASN data is separate and includes the ASN number, organization, registered country, domain and type.
 
 API lookups send their inputs and the server machine's public egress IP to IPGeolocation.io. Cached responses stay in the server process's memory. Gemini CLI manages its own configuration and logs.
 

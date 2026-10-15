@@ -1,7 +1,7 @@
 {
   "name": "ipgeolocation-io-mcp",
   "version": "2.0.1",
-  "description": "Look up IP geolocation and company/ISP information with the official IPGeolocation.io extension for Gemini CLI. Its 17 tools also cover ASN and network data, IP security (VPN, proxy, Tor, bot, hosting and spam detection), abuse contacts, time zones, astronomy, currency data and user-agent parsing.",
+  "description": "The official IPGeolocation.io extension gives Gemini CLI 17 tools for accurate IP geolocation, company information, ASN and network data, IP security (VPN, proxy, Tor, bot, hosting and spam detection), abuse contacts, time zones, astronomy, currency data and user-agent parsing.",
   "mcpServers": {
     "ipgeolocation": {
       "command": "npx",
